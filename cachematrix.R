@@ -1,5 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The functions below implement a 'cache matrix' that can store the result
+## of a matrix inverse operation, allowing it to be retrieved later without 
+## being recalculated (such as might be desirable for a large matrix for 
+## which calculating the inverse might be computationally expensive.
+
 
 ## The function makeCacheMatrix creates a special "matrix", which is 
 ## really a list containing a function to:
